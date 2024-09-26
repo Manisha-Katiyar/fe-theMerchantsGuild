@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+  min-height: 100%;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+.container{
+  height: 100vh;
+  background-color: grey ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('public/landing_image.webp');
+  background-size: cover; /* or contain, or a specific size like 100% 100% */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.circular-image-container {
+  width: 380px; /* Set your desired width */
+  height: 370px; /* Set your desired height */
+  border-radius: 50%; /* Make it circular */
+  overflow: hidden; /* Hide any overflow from the image */
+  display: flex; /* Center the image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.circular-image {
+  width: 140%; /* Scale to fill the container */
+  height: 120%; /* Maintain aspect ratio */
+  object-fit: scale-down; /* Cover the container while maintaining aspect ratio */
+
+}
+
+.container i{
+  height: 8rem;
+  width: 8rem;
+  color: grey;
+}
+
+.fight-container{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.information{
+  flex: 1;
+  /* background-color: aqua; */
+}
+
+.mcq-Container{
+  flex: 1;
+  /* background-color:; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
