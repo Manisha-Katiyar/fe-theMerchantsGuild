@@ -35,7 +35,8 @@ export default function Map () {
 
     return (
         <div className="map-container">
-            {
+            <div className="levelHolder">
+                {
                 levels.map((level, index) => (
                     <Level 
                         image={level.image} 
@@ -45,6 +46,8 @@ export default function Map () {
                     />
                 ))
             }
+            
+            </div>
         </div>
     )
 }
